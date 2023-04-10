@@ -28,13 +28,6 @@ public class Manoj {
 			System.out.println(text);
 			
 		}
-		System.out.println("all the document is credited successfully")
-		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		
-		driver.get("https://www.flipkart.com/");
-		
-		driver.findElement(By.xpath("/html/body/div[2]/div/div/button")).click();
 		
 	}
 
